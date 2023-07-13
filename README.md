@@ -28,10 +28,13 @@
 - MYSQL
 
 ## Como rodar na sua máquina
-- Primeiro instale o XAMPP mais recente;
+- Primeiro instale o XAMPP mais recente
 - Após inicializar o XAMPP, ligue o APACHE e o MYSQL
 - Em seguida, procure no seu browser por: http://localhost/dashboard/
 - Clique em phpmyAdmin e em seguida importe o arquivo "adocao(3).sql"
+- Em seu computador, procure onde o XAMPP foi instalado e procure uma pasta chamada 'htdocs'
+- Crie uma pasta dentro de htdocs denominada "ProjetoInterdisciplinar"
+- Em seguida, coloque todos os aquivos do repositório dentro da pasta "ProjetoInterdisciplinar"
 - Feito isso, para acessar a primeira página do sistema digite o seguinte caminho: http://localhost/ProjetoInterdisciplinar/Paginas/paginaLogin.php
 - Entre com suas credenciais e já pode utilizar o sistema.
 
