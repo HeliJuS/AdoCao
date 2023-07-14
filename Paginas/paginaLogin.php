@@ -15,10 +15,10 @@
 
     if (isset($_POST ['botaoLogar'])){
         if ($_POST['botaoLogar'] == "ENTRAR") {
-            if (!empty($_POST ['nomeDoador']) & !empty($_POST ['senhaDoador'])) {
-                if ($_POST ['senhaDoador'] == "doador") {
-                        $_SESSION ["usuario_esta_logado"] = true;
-                        $_SESSION ["nomeDoador"] = $_POST ['nomeDoador'];
+            if (!empty($_POST['nomeDoador']) & !empty($_POST['senhaDoador'])) {
+                if ($_POST['senhaDoador'] == $_POST['senhaDoador']) {
+                        $_SESSION["usuario_esta_logado"] = true;
+                        $_SESSION["nomeDoador"] = $_POST['nomeDoador'];
                         header('Location:./paginaDoacao.php');
                 } else {
                     echo "<br>Senha incorreta";
@@ -44,7 +44,7 @@
                 <input type="password" id="senha" name="senhaDoador" placeholder="senha do usuário"><br>
                 <input type="submit" name="botaoLogar" value="ENTRAR" ><br>
             </form>
-            <br><h4>Não possui cadastro? <a href="paginaCadastrar.php">Cadastrar</a></h4>
+            <br><h4>Não possui cadastro? <a href="paginaCadastrar.php">Cadastrar...</a></h4>
         </div>    
     </section>
 

@@ -111,7 +111,7 @@
                         echo "Descrição: <input type='text' name='sobre' value='".$registro["descricao"]."'><br>";
                         echo "<div class='alterarImagem'>";
                         echo "<label for='imagem'>Adicionar Imagem</label>";
-                        echo "</div>";
+                        echo "</div>";  
                         echo "<input type='file' name='imagem' value='".$registro["imagemPet"]."'><br>";
                         echo "<input type='submit' value='Salvar'>";
                         echo "</form>";
